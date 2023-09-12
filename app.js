@@ -2,7 +2,7 @@ function setElements(ids){
    const element = new Map();
    ids.forEach((id) => {
     element.set(id, document.getElementById(`${id}`));
-    element.get(id).style = 'font-size:20px;margin:10px 0;padding:20px;'
+    element.get(id).style = 'user-select:none;font-size:20px;margin:10px 0;padding:20px;'
    });
 
    return element;
